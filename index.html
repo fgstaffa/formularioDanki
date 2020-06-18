@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <form>
+        <fieldset><!-- criando grupo -->
+            <legend>Formulário</legend>
+            <div><input type="text" name="nome" placeholder="Digite o seu nome"></div>
+            <div><input type="text" name="nome" placeholder="Digite o seu e-mail"></div>
+            <div>
+                <select name="ista">
+                    <option disabled selected>Qual sua idade</option>
+                    <option>20</option>
+                    <option>25+</option>
+                    <option>40+</option>
+                </select>
+            </div>
+            <h2>Qual a sua cidade?</h2>
+            <div class="input">
+            
+            <div>
+                <input type="radio" name="cidade" value=""><span>São Paulo</span>
+            </div>
+            <div>
+                <input type="radio" name="cidade"><span>Campinas</span>
+            </div>
+            <div>
+                <input type="radio" name="cidade"><span>Santo André</span>
+            </div>
+            </div>
+
+            <h2>O que você gosta de comer?</h2>
+            <div class="input">
+            <div>
+                <input type="checkbox" name="cidade" value=""><span>Lasanha</span>
+            </div>
+            <div>
+                <input type="checkbox" name="cidade"><span>Chocolate</span>
+            </div>
+            <div>
+                <input type="checkbox" name="cidade"><span>Lanche</span>
+            </div>
+            </div>
+
+            <div>
+                <textarea placeholder="Possui alguma observação!"></textarea>
+            </div>
+
+            <div>
+                <input type="submit" name="acao" value="Enviar">
+            </div>
+        </fieldset>
+    </form>
+    
+</body>
+</html>
